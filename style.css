@@ -1,0 +1,85 @@
+/* 기본 스타일 - 아주 간단하게! */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* 폼과 목록 박스 */
+.booking-form, .bookings-list {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+/* 입력 필드 */
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+}
+
+/* 버튼 */
+button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* 삭제 버튼 */
+.delete-btn {
+  background: #f44336;
+}
+
+.delete-btn:hover {
+  background: #da190b;
+}
+
+/* 예약 아이템 */
+.booking-item {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+}
+
+.booking-item h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.booking-item p {
+  margin: 3px 0;
+  color: #666;
+}
+
+/* 폼 그룹 */
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "meeting-room-booking",
+  "version": "1.0.0",
+  "description": "Simple meeting room booking system for classroom workshop",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "init-db": "node init-db.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "nodemon": "^3.0.0",
+    "concurrently": "^8.0.0"
+  }
+}

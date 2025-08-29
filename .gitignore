@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.db
+*.db-journal
+.env
+.vscode/
+*.log
+INSTRUCTOR_GUIDE.md
+STUDENT_INSTRUCTIONS.md
