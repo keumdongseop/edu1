@@ -6,6 +6,5 @@ dist/
 .env
 .vscode/
 *.log
-INSTRUCTOR_GUIDE.md
-STUDENT_INSTRUCTIONS.md
-.gitignore
+IN1.md
+IN2.md
