@@ -8,3 +8,4 @@ dist/
 *.log
 INSTRUCTOR_GUIDE.md
 STUDENT_INSTRUCTIONS.md
+.gitignore
