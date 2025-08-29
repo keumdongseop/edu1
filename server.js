@@ -5,7 +5,7 @@ import cors from 'cors';
 
 // Express 앱 만들기
 const app = express();
-const port = 3001;  // 서버 포트
+const port = 5000;  // 서버 포트
 
 // 미들웨어 설정
 app.use(cors());         // 다른 포트에서 접근 허용

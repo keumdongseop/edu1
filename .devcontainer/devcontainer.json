@@ -1,0 +1,35 @@
+{
+  "name": "회의실 예약 시스템",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  
+  "postCreateCommand": "npm install && npm run init-db",
+  "postStartCommand": "npm run dev",
+  
+  "forwardPorts": [3000, 5000],
+  "portsAttributes": {
+    "3000": {
+      "label": "프론트엔드",
+      "onAutoForward": "openBrowser"
+    },
+    "5000": {
+      "label": "백엔드 API",
+      "onAutoForward": "silent"
+    }
+  },
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  },
+  
+  "postAttachCommand": "echo '🎉 환영합니다! 서버가 자동으로 시작됩니다...'"
+}
