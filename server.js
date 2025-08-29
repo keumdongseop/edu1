@@ -1,14 +1,12 @@
 // ========== 서버 설정 ==========
 import express from 'express';
 import sqlite3 from 'sqlite3';
-import cors from 'cors';
 
 // Express 앱 만들기
 const app = express();
 const port = 5000;  // 서버 포트
 
 // 미들웨어 설정
-app.use(cors());         // 다른 포트에서 접근 허용
 app.use(express.json());  // JSON 데이터 받기
 
 // 데이터베이스 연결
