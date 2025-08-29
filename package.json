@@ -1,7 +1,7 @@
 {
   "name": "meeting-room-booking",
   "version": "1.0.0",
-  "description": "Simple meeting room booking system for classroom workshop",
+  "description": "초보자를 위한 간단한 회의실 예약 시스템",
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
